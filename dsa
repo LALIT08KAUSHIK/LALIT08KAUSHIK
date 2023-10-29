@@ -1,0 +1,444 @@
+#include <iostream>
+using namespace std;
+int main (){
+  /*
+ cout<<"vikash"<<endl;
+  int a=2;
+  cout<<a<<endl;
+
+  
+  char ch='x';
+  cout<<ch<<endl;
+  bool bl=true;
+  cout<<bl<<endl;
+  float f=1.2;
+  cout<<f<<endl;
+  double d=1.23;
+  cout<<d<<endl;
+  int size,=sizeof(a);
+  cout<<"size of ch is-"<<size;
+ int s='a';
+  cout<<s <<endl;
+  char ch1=98;
+  cout<<ch1<<endl;
+  char ch2=6788;
+  cout<<ch2<<endl;
+
+int a=7;
+int b=6;
+
+bool first= (a==b);
+  cout<<first<<endl;
+  bool second= (a>=b);
+  cout<<second<<endl;
+
+unsigned  a=-112;
+  cout<<a<<endl;
+
+int a=0;
+  cout<<!a;
+            
+int n;
+  cin>>n;
+  cout<<"hello"<<endl;
+  int a,b;
+  cin>>a>>b;
+  cout<<"value of a"<<a<<endl<<"value of b"<<b<<endl;
+
+  int a,b;
+  cin >>a>>b;if(a<b) {
+    cout<<"b is greater than a";
+    
+  }
+  else if(a>b) {cout<<"a is greater than to b"<<endl;}
+  else{cout<<"ss";}
+
+int a;
+  cin>>a;
+  if(a==1){cout <<"vikahs";}
+  else if (a==5){cout<<"yes";}
+  else{cout<<"asur";};
+
+int a;
+  int b=a+1;
+  cin>>a>>b;
+  if((a=3)==b){cout<<a;}
+  else {cout<<a+1;}
+
+  char ch;
+  cin>>ch;
+  if(ch>='a'&ch<='z'){cout<<"this is lower case"; }
+  else if (ch>='A'&ch<='Z'){cout <<"upper case";}
+else if(ch>='1' & ch<='9'){cout <<"numeric";}
+else{cout<<"wow"};
+  
+int n;
+  cin>>n;
+  int i=1;
+  while (i<=n){
+    cout<<i<<"=";
+    i=i+1;
+  }
+
+  int n;
+int sum=0;
+  int i=1;
+  cin>>n;
+  while (i<=n){sum=sum+i;
+    cout<<"sum of "<<i<< "digit is "<<sum<<endl;
+  
+    i=i+1;
+     }
+
+
+  int n;
+  int i=2;
+  int sum=0;
+  cin>>n;
+  while(i<=2*n){//even number sum for natural number.
+    sum=sum+i;
+    i=i+2;
+    
+  }
+
+ cout<<sum;
+
+
+ int n;
+  cin>>n;
+  int i=2;
+  
+  while(i<n){
+    if(n%i==0){
+      cout<<"it is not prime for "<<i;
+    cout<<'\n';}
+    else{cout<<"it is prime for "<<i<<'\n';}
+i=i+1;
+  }
+
+
+  float c,f;
+  cin>>f;
+  c=(f-32)*5/9;
+  cout<<"farhenit temp is "<<f<<'\n';
+  cout<<"celcius temp is "<<c;
+      
+
+  //pattern 1
+int n;
+  cin>>n;
+  
+int i=1;
+while (i<=n){
+int j=1 ;while (j<=n){
+cout <<"*";
+j=j+1;
+} cout<<"\n";
+i=i+1;
+} 
+
+
+  
+  int n;
+  cin>>n;
+  int i=1;
+  while (i<=n){
+    int j=1;
+    while(j<=n){
+      cout<<i;
+      j=j+1;
+      }cout<<endl;
+    i=i+1;
+  }
+
+
+
+  int n;
+  cin>>n;
+  int i=1;
+  while (i<=n){
+    int j=1;
+    while(j<=n){
+    cout<<j;
+    j=j+1;}
+  
+  cout<<endl;
+  i=i+1;}
+
+int n;
+cin>>n;
+  int i=1;
+  while (i<=n){
+    int j=1;
+    while(j<=n){
+      cout<<(n-j+1);
+        j=j+1;
+    }cout<<endl;
+    i=i+1;}
+
+
+  int n;
+  cin>>n;
+  int i=1;
+  int x=1;
+  while(i<=n){
+    int j=1;
+  while(j<=n){
+    cout<<x;
+    
+    j=j+1;
+    x=x+1;
+  }cout<<endl;i=i+1;  }
+  
+
+
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int j=1;while(j<=i){cout<<"*";
+                       j=j+1;}
+    cout<<endl;
+    i=i+1;}
+    
+    
+  int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int j=1;while(j<=i){
+      cout<<i;
+      j=j+1;}
+    cout<<endl;
+    i=i+1;}
+  
+
+int n;
+  cin>>n;
+  int i=1;
+  int w=1;
+  while(i<=n){
+    int j=1;while (j<=i){
+      cout<<w;
+      w=w+1;
+      j=j+1;}
+    cout<<endl;
+    i=i+1;}
+
+
+  int n;
+  cin>>n;  
+  int i=1;
+    while(i<=n){int j=1;
+    while(j<=n){ char ch=('A'+j-1);
+      cout<<ch;
+      j=j+1;}
+  cout<<endl;
+  i=i+1;}
+
+
+  int n;
+  cin>>n;
+  int i=1;
+  char ch='A';
+  while(i<=n){
+    int j=1;
+    while(j<=i){
+      cout<<ch;
+      j=j+1;
+      ch=ch+1;   
+    }cout<<endl;
+    i=i+1;
+  }
+
+
+ int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int j=1;
+    char ch ='A'+i-1;
+    while(j<=n){
+      cout<<ch;
+      ch=ch+1;
+      j=j+1;
+    }cout<<endl;
+    i=i+1;}
+
+
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int j=1; 
+    char ch ='A'+n-j-i+1;
+    while (j<=i){
+      cout<<ch;
+      ch=ch+1;
+      j=j+1;
+    }cout<<endl;
+    i=i+1;
+  }
+
+  int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int space =n-i;
+    while(space){
+      cout<<" ";
+      space=space-1;}
+      int j=1;
+      while(j<=i){
+        cout<<"*";
+        j=j+1;
+      }cout<<endl;i=i+1; }
+  
+  
+
+  int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int cross=n-i+1;
+    while(cross){
+      cout<<"*";
+      cross =cross-1;
+    }cout <<endl;
+    i=i+1;
+  }
+  
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+int j=n-i+1;
+    while(j){cout<<"*";
+       j=j-1;}
+    int space= i-1;
+    while(space){
+      cout<<" ";
+      space =space-1;
+    
+    }cout<<endl;
+    i=i+1;
+}
+
+//dabang pattern
+  int n;
+  cin>>n;
+int i=1;
+  while(i<=n){
+    int j=1;
+    while(j<=n-i+1){
+      cout<<j;
+      j=j+1;}
+    
+    int cross1 =i-1;
+  while(cross1){
+    cout<<"*";
+  cross1 =cross1 -1;}
+
+    int cross2 =i-1;
+    while(cross2){
+      cout<<"*";
+    cross2 = cross2-1;}
+    
+  int x=n-i+1;
+    while(x){
+      cout<<x;
+    x=x-1;}cout<<endl;
+  i =i+1;
+  
+}
+
+  int n;
+cin>>n;
+int i=1;
+while(i<=n){
+  int space= i-1;
+  while(space){cout<<" ";
+  space=space-1;} 
+  int cross=n-i+1;
+  while(cross){
+    cout<<"*";
+    cross=cross-1;}
+cout<<endl;
+i=i+1; }
+
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int space= i-1;
+    while(space){
+      cout<<" ";
+      space =space-1;}
+  int j=1;
+  while(j<=n-i+1){
+    cout<<i;
+    j=j+1;
+  }cout<<endl;
+  i=i+1;}
+
+
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int space=n-i;
+    while(space){
+      cout<<" ";
+      space =space-1;}
+      int j=i;
+      while(j){
+        cout<<i;
+        j=j-1;}cout<<endl;
+      i=i+1;}
+ 
+
+  int n;
+  cin>>n;
+  int i=1;
+  int count=1;
+  while(i<=n){
+    int space= n-i;
+    while(space){
+      cout<<" ";
+      space=space-1;} 
+  int j=1;
+  while(j<=i){
+    cout<<count;
+    count=count+1;
+    j=j+1;
+  }cout<<endl;
+  i=i+1;}
+
+int n;
+  cin>>n;
+  int i=1;
+  while(i<=n){
+    int space=n-i;
+   while(space){
+      cout<<" ";
+     space =space-1;}
+  int j=1;
+    while(j<=i){
+      cout<<j;
+      j=j+1;}
+    int x = i-1;
+    while(x){
+      cout<<x;
+      x=x-1;
+    }
+    int space1 = n-i+1;
+    while(space1){
+      cout<<" ";
+      space1=space1 -1;
+    }cout<<endl;
+    i=i+1;}*/
+
+
+
+}
+
